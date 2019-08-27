@@ -10,7 +10,7 @@ function currentTime() {
     hour = updateTime(hour);
     min = updateTime(min);
     sec = updateTime(sec);
-    let datestyle = new Date().toLocaleDateString("en", {
+    let datestyle = new Date().toLocaleDateString("in", {
         year: "numeric",
         day: "2-digit",
         month: "2-digit"
